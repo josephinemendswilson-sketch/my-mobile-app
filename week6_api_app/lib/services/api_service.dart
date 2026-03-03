@@ -5,7 +5,7 @@ import '../models/article.dart';
 class ApiService {
   // Base URL for the API
   final String baseUrl = 'newsapi.org';
-  final String apiKey = 'YOUR_API_KEY'; // You'll get this from registration
+  final String apiKey = 'bbf104bd3ffb4593850796641428f0eb'; // You'll get this from registration
   
   // Method to fetch news articles
   Future<List<Article>> fetchNewsArticles() async {
